@@ -1,0 +1,18 @@
+@import url(./__place/places__place.css);
+@import url(./__title/places__title.css);
+@import url(./__url-block/places__url-block.css);
+@import url(./__url-heading/places__url-heading.css);
+@import url(./__link/places__link.css);
+
+@import url(./__image/places__image.css);
+
+@import url(./__text-block/places__text-block.css);
+@import url(./__paragraph/places__paragraph.css);
+.places {
+  margin: 0 48px 92px;
+
+  list-style-type: none;
+  padding: 0;
+
+
+}
