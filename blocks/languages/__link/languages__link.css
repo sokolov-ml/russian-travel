@@ -2,7 +2,7 @@
 .languages__link {
   width: 30px;
   margin: 18px 0 6px 18px;
-  font-family: Inter;
+  font-family: Inter, 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -11,4 +11,11 @@
   text-align: right;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .languages__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }

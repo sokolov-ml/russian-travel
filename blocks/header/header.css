@@ -1,10 +1,24 @@
-
+@import url(./__logo/header__logo.css);
 
 
 .header {
   margin: 28px 48px 56px;
   display: flex;
   justify-content: space-between;
+  height: 52px;
+}
 
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 28px 24px 48px;
+    /* identical to box height, or 133% */
+  }
+}
 
+@media screen and (max-width: 400px) {
+  .header {
+    margin: 16px 16px 48px;
+    height: 42px;
+    /* identical to box height, or 133% */
+  }
 }

@@ -8,11 +8,30 @@
 
 @import url(./__text-block/places__text-block.css);
 @import url(./__paragraph/places__paragraph.css);
+
 .places {
-  margin: 0 48px 92px;
-
+  margin: 0 auto 92px;
+  max-width: 984px;
+  padding: 0 48px;
   list-style-type: none;
-  padding: 0;
+  display: grid;
+  grid-template-rows: auto;
+  gap: 80px;
+}
 
 
+@media screen and (max-width: 860px) {
+  .places {
+    padding: 0 24px;
+
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  .places {
+    padding: 0;
+    gap: 48px;
+    margin: 0 auto 64px;
+  }
 }

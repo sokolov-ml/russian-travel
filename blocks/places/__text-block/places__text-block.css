@@ -1,6 +1,17 @@
 
 .places__text-block {
   grid-area: text;
+  display: grid;
+  gap: 24px;
+  max-width: 100%;
+}
 
 
+
+@media screen and (max-width: 480px) {
+  .places__text-block {
+
+    padding: 0 16px;
+
+  }
 }
