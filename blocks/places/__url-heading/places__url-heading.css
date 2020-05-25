@@ -3,11 +3,11 @@
 .places__url-heading {
   font-family: Inter, 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   /* identical to box height, or 100% */
-
+  text-transform: uppercase;
   letter-spacing: 0.2em;
   grid-area: link;
   color: #AAAAAA;

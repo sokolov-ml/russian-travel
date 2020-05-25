@@ -1,12 +1,17 @@
 
 
 .footer__links {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+  grid-auto-flow: column;
 }
 
 
 @media screen and (max-width: 500px) {
   .footer__links {
-    display: grid;
+    grid-auto-flow: row;
     gap: 32px;
     margin: 0 0 48px;
   }
