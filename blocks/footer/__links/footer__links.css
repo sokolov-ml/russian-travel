@@ -6,6 +6,7 @@
   display: grid;
   gap: 18px;
   grid-auto-flow: column;
+  list-style-type: none;
 }
 
 
